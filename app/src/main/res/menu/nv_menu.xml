@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        >
+        <item
+            android:id="@+id/menu_1"
+            android:checked="true"
+            android:icon="@drawable/ic_dashboard"
+            android:title="首页"
+            />
+        <item
+            android:id="@+id/menu_2"
+            android:icon="@drawable/ic_event"
+            android:title="推荐"/>
+        <item
+            android:id="@+id/menu_3"
+            android:icon="@drawable/ic_headset"
+            android:title="热点"/>
+        <item
+            android:id="@+id/menu_4"
+            android:icon="@drawable/ic_forum"
+            android:title="科技"/>
+    </group>
+    <item android:title="subItem">
+        <menu
+            >
+            <item
+                android:id="@+id/menu_5"
+                android:icon="@drawable/ic_dashboard"
+                android:title="国内"/>
+            <item
+                android:id="@+id/menu_6"
+                android:icon="@drawable/ic_forum"
+                android:title="国外"/>
+        </menu>
+    </item>
+</menu>
